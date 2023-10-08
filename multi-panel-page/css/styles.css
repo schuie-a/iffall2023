@@ -1,0 +1,144 @@
+html{
+
+    font-family: 'Archivo Narrow', sans-serif;
+    
+}
+
+header{
+   background-image: url(https://pbs.twimg.com/media/El6OIHUWkAIJ0wc?format=jpg&name=large);
+   text-align: center;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.1;
+    color: white;
+}
+
+
+.column-container{
+
+    width: 960px;
+    margin: auto;
+     
+}
+
+header .column-container{
+
+    padding-top: 152px;
+    padding-bottom: 188px;
+}
+
+h3{
+
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    line-height: 2;
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+
+.main-paragraph {
+
+    padding-top: 39px;
+    padding-bottom: 28px;
+    background-color: rgb(226, 208, 188);
+}
+
+.main-text{
+
+    padding-top: 32px;
+}
+
+.right{
+
+    float: right;
+    width: 400px;
+    height: 300px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+}
+.grid-section{
+    padding-top: 39px;
+    padding-bottom: 45px;
+    background-color: rgb(68, 106, 89);
+
+}
+
+.grid{
+
+    padding: 0;
+}
+
+.grid li{
+
+    display: block;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.using-flex{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-image{
+  
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding-right: 12px;
+    padding-top: 18px;
+
+}
+
+h4{
+    font-size: 20px;
+    padding-top: 18px;
+
+}
+
+.right-of-image{
+
+    padding-right: 30px;
+    padding-top: 7px;
+}
+
+.end-section{
+
+    padding-top: 39px;
+    background-color: rgb(226, 208, 188);
+}
+
+.paragraph-end{
+
+    font-size: 26px;
+    text-align: center;
+    width: 720px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+.copyright{
+
+    padding-top: 40px;
+    background-color: rgb(88, 100, 152);
+    padding-bottom: 25px;
+    
+}
+
