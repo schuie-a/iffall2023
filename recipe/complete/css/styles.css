@@ -13,6 +13,28 @@ section{
   margin: 0;
 }
 
+.section-one-boxes{
+  margin-left: 2%;
+  padding-bottom: 0;
+  
+}
+@media (min-width: 1200px) {
+  .section-one-boxes{
+    
+   margin-left: 4%;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .section-one-boxes{
+    
+   margin-left: 10%;
+   margin-right: 10%;
+  }
+
+}
+
 
 .column-container{
   width: 960px;
@@ -25,8 +47,18 @@ section{
   padding: 0;
 }
 
-.first-section .column-container {
+.first-section {
   background-color: rgb(62, 37, 14);
+  padding-top: 3%;
+  padding-bottom: 0%;
+ 
+}
+
+@media (min-width: 1000px) {
+  .first-section{
+    padding-bottom: 2%;
+   
+  }
 }
 
 h1, h2, h3, h4, h5, p{
@@ -38,44 +70,40 @@ h1{
   font-size: 80px;
   line-height: 80px;
   color: beige;
+  
 }
 @media (min-width: 470px) {
   h1{
     font-size: 100px;
     line-height: 100px;
-    margin: 0%;
+   
   }
 
 }
 
 @media (min-width: 1000px) {
   h1{
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 100px;
     margin: 0%;
+    margin-left: -10%;
   }
 
 }
 
-.heading{
-  margin: auto;
-}
 
-.first-section .column-container{
-  padding-top: 1%;
-  padding-bottom: 1%;
-  max-width: 100%;
-}
 
 .box-title{
 width: 100%;
-margin: center;
+
 max-width: 100%;
+margin-right: 3%;
 }
+
 
 @media(min-width: 1000px){
   .box-title{
-    width: 33%;
+    max-width: 33%;
   }
 }
 
@@ -88,28 +116,42 @@ max-width: 100%;
   background-color:rgb(192, 143, 95);
   width: 100%;
   padding-left: 3%;
-  margin: 1%;
-  margin-right: 6%;
-  margin-left: 6%;
   margin-bottom: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2%;
 
 }
 
 @media(min-width: 1000px){
   .box-header{
+
     margin-bottom: 3%;
-    width: 51%;
+    width: 45%;
+    margin-left: 11%;
+    
   }
 }
 
+@media(min-width: 1200px){
+  .box-header{
+    margin-bottom: 3%;
+    width: 48%;
+    margin-left: 7%;
+  }
+}
+
+
+
+
 .header-text{
   margin-right: 5%;
-  margin-top: 4.5%;
+  margin-top: 5.5%;
   color: rgb(62, 37, 14);
   font-size: 22px;
   font-weight: 500;
   line-height: 25px;
-  margin-bottom: 4.5%;
+  margin-bottom: 4%;
  
 }
 
