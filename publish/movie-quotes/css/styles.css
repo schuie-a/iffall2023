@@ -1,0 +1,30 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color:darkseagreen;
+    
+}
+caps{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    color:darkseagreen;
+    
+}
+h1{
+    
+        font-family: "shlop", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 100px;
+        color:darkslateblue; 
+      
+        
+text-align: center; 
+   
+}
+body{
+    background-color:black; 
+}
+

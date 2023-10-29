@@ -1,0 +1,53 @@
+html{
+ 
+    font-family: 'Ubuntu';
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+p{
+
+    margin-left: 3%;
+    font-size: 20px;
+}
+.ingList{
+
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 37px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.indent{
+
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: -.5%;
+}
+
+.subHead{
+    margin-left: 3%;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: -.5%;
+}
+.right{
+    float: right;
+}
+
+.left{
+
+    float: left;
+}
+
+.leftFin{
+
+    float: inline-end;
+}
