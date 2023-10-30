@@ -1,0 +1,260 @@
+#btn_fitbit{
+    font-family: montserrat;
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    margin-top: 100px;
+    font-size: 24px;
+    padding: 10px 40px 10px 40px;
+	background-color: #08243a;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#btn_fitbit:hover{
+
+    font-weight: 500;
+    font-style: italic;
+    color: #06cdd1;
+    padding: 10px 39.5px 10px 39.5px;
+}
+
+#btn_york{
+    font-family: Playfair Display ;
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    margin-top: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 0px;
+    padding: 7px 15px 7px 15px;
+    color: white;
+    background-color: black;
+    transition: all .2s;
+}
+
+.little_yorker{
+    font-size: 18px;
+    line-height: 0px;
+}
+
+#btn_york:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border: 2px black;
+}
+
+#btn_lyft{
+    font-size: 45px;
+    font-family: glodok;
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    margin-top: 100px;
+    text-decoration: none;
+    color: #ff03c0;
+    padding: 10px;
+    letter-spacing: -2px;
+}
+
+#btn_lyft:hover{
+    font-size: 55px;
+    color: rgb(89, 3, 247);
+    transition: .8s;
+    margin-top: 94px;
+    letter-spacing: 1px;
+}
+
+#btn_npr{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    margin-top: 70px; 
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.grid{
+    padding: 0;
+}
+
+.grid li{
+    display: block;
+}
+
+.using-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#btn_npr li{
+
+    margin: auto;
+    padding: 4px 17px 4px 17px;
+}
+
+.n{
+    background-color: rgb(211, 7, 7);
+}
+
+.p{
+    background-color: #000000;
+}
+
+.r{
+    background-color: #1969bf;
+}
+
+#btn_npr:hover .n{
+    background-color: #1969bf;
+    transition: .3s;
+    font-weight: bolder;
+}
+
+#btn_npr:hover .r{
+    background-color: rgb(211, 7, 7);
+    transition: .3s;
+    font-weight: bolder;
+}
+
+#btn_npr:hover .p{
+    font-weight: bolder;
+}
+
+#btn_cn{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    font-family: montserrat;
+    font-weight: 1000;
+    font-size: 80px;
+}
+
+#btn_cn li{
+text-align: center;
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+}
+.cartoon{
+    color: white;
+    background-color: black;
+}
+
+.network{
+    color: rgb(0, 0, 0);
+}
+
+#btn_cn:hover .cartoon{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+#btn_kittens{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    margin-top: 80px;
+    font-family:jaf-bernino-sans-comp;
+    font-weight: bolder;
+    font-size: 38px;
+    color: white;
+    background-color: rgb(204, 22, 22);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
+
+#btn_kittens:hover .explode{
+    color: orange;
+    text-shadow: 10px 0px 7px #ff5900;
+    font-weight: bolder;
+}
+
+#btn_kittens:hover{
+    box-shadow: 0px 0px 3px rgb(204, 22, 22);
+}
+
+#btn_potter{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    margin-top: 90px;
+    font-family: schwarzkopf-new;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(236, 236, 158);
+    background-color: #161f6e;
+    padding: 3px 10px 3px 10px;
+}
+
+#btn_potter:hover{
+    text-shadow: 0px 0px 7px rgb(21, 234, 63);;
+}
+
+#btn_tesla{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    margin-top: 100px;
+    font-family: uniwars;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    font-size: 40px;
+    padding: 0px 8px 0px 8px;
+}
+
+#btn_tesla:hover{
+    transition: 1s;
+    letter-spacing: 10px;
+}
+
+#btn_samsung{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    margin-top: 100px;
+    font-family: pirulen;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(27, 27, 123);
+    color: white;
+    padding: 3px 12px 3px 12px;
+    letter-spacing: 2px;
+}
+
+
+#btn_samsung:hover {
+    color: rgb(112, 149, 216);  
+}
+
+#btn_samsung:hover .spinning{
+    color: rgb(255, 255, 255);  
+}
+
+#btn_kors{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+    text-decoration: none;
+    margin-top: 100px;
+    font-family: montserrat;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#btn_kors:hover .blacken{
+    background-color: black;
+    color: white;
+    padding: 0px 3px 0px 3px;
+ 
+}
