@@ -1,0 +1,139 @@
+html{
+  margin: 0;
+  background-color: black;
+  font-family: quatro;
+  z-index: -2;
+}
+
+.top-bar{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    margin: auto;
+}
+
+
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+}
+
+.using-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul .grid {
+    padding-inline: 0;
+    margin: 0%;
+}
+
+.grid{
+    padding: 0;
+    margin-left: 0;
+    margin-left: 0;
+}
+  
+.grid li{
+    display: block;
+}
+
+.width-25{
+    width: 18%;
+    margin: auto;
+}
+
+.bar-style li {
+    text-align: center;
+    font-family: cy;
+    font-weight: 600;
+    font-size: 24px;
+    color:rgb(238, 65, 83);
+}
+
+.title{
+  padding-left: 3%;
+  padding-top: .5%;
+  font-family: cy;
+  font-weight:800 ;
+  font-size: 63px;
+  color: rgb(255, 255, 255);
+  float: left;
+  line-height: 36px;
+
+}
+
+.page-title-words{
+  letter-spacing: -5px;
+  line-height: 260px;
+  font-family: cy;
+  font-weight:800 ;
+  font-size: 280px;
+  color:white;
+  margin: auto;
+  text-align: center;
+  font-weight: 900;
+}
+
+.bar-style{
+  padding-top: .5%;
+  padding-right: 10%;
+  padding-bottom: .8%;
+}
+
+.page-title{
+
+  width: 100%;
+  padding-top: 9%;
+  padding-bottom: 5%;
+}
+.page-title{
+  background: 
+    linear-gradient(rgb(0, 0, 0,0), black),
+    url(https://images.theconversation.com/files/519205/original/file-20230404-20-7n3dx9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip);
+  background-size: cover;
+  object-position: center;
+}
+
+h2{
+  text-align: center;
+  font-family: cy;
+    font-weight: 600;
+    font-size: 60px;
+    color:rgb(238, 65, 83);
+}
+
+.section-evolution{
+  background-color: rgb(238, 65, 83);
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+.content-container{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h3{
+  color: rgb(126, 236, 240);
+  font-family: cy;
+  font-weight:800 ;
+  font-size: 75px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+p{
+  color: white;
+  line-height: 43px;
+  font-size: 28px;
+}
+
+.section-environment{
+  padding-top: 6%;
+  background:linear-gradient(rgb(0, 0, 0,0), rgb(22, 101, 143));
+  padding-bottom: 6% ;
+}
+
+
